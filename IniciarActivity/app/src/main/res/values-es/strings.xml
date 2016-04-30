@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IniciarActivity</string>
+    <string name="txtMessageHint">Escribe un mensaje...</string>
+    <string name="btnSendText">Enviar mensaje</string>
+</resources>

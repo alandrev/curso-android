@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IniciarActivity</string>
+    <string name="txtMessageHint">Hint en francés...</string>
+    <string name="btnSendText">Enviar mensaje en francés</string>
+</resources>

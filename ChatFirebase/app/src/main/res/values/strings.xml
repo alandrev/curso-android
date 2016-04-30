@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chat Firebase</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintUsername">Username</string>
+    <string name="hintMessage">Message</string>
+    <string name="btnSendMessage">Send</string>
+</resources>

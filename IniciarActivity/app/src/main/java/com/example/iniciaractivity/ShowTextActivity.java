@@ -15,10 +15,13 @@ public class ShowTextActivity extends AppCompatActivity {
 
         // Obtener el intent y los valores que contiene
         Intent intent = getIntent();
-        String message = intent.getStringExtra("MiMensaje");
+        String message = intent.getStringExtra(MainActivity.MESSAGE_VARIABLE);
 
         // Mostrar texto en la interfaz
         TextView txtReceivedMessage = (TextView) findViewById(R.id.txtReceivedMessage);
         txtReceivedMessage.setText(message);
+
+        // Activar o desactivar botón Atrás <-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
